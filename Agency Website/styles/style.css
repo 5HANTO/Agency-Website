@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Website header Section Styles */
+
+.nav-bar{
+    background-color: rgb(151, 147, 147);
+    padding: 18px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.nav-link{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    margin-left: 20px;
+    font-weight: 800;
+}
+
+.nav-link a:hover{
+    color: coral;
+    transition: all 1s;
+}
+
+/* Banner Section Styles  */ 
+.banner-section{
+    height: 650px;
+    background-image:linear-gradient(0deg, rgb(16,16,16) -19.5%,
+    rgba(16,16,16,0) 100%
+    ),
+    url(/asset/image/background.jpg);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+span{
+    color: red;
+}
+.banner-section h1{
+    font-size: 88px;
+    color: white;
+}
+
+.banner-section p{
+    font-size: 24px;
+    width: 750px;
+    color: white;
+    margin-top: 10px;
+}
+.btn{
+    padding: 15px 30px;
+    font-size: larger;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    margin-right: 10px;
+}
+
+
+#white-btn{
+    background-color: white;
+    color: red;
+}
+.information-section{
+    background-image: linear-gradient(to bottom,  rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+    url(/asset/image/footer-bg.png);
+    color: white;
+    height: 450px;
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+.service-btn{
+    background-color: aliceblue;
+    padding: 15px 30px;
+    font-size: larger;
+    border-radius: 30px;
+    color: rgb(100, 96, 96);
+    margin-bottom: 20px;
+    
+}
+
+.information-section h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+.information-section p{
+    font-size: larger;
+
+    margin-bottom: 20px;
+    padding-left: 30px;
+
+}
+
+ul{
+    list-style: square;
+    padding-left: 20px;
+}
+
+.author img{
+    clip-path: circle(50% at 50% 50%);
+    width: 50%;
+}
+.author{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid red;
+    
+
+}
+
+.name{
+    font-size: larger;
+    line-height: 0%;
+}
+
+.Details{
+    padding: 0 0px;
+    margin-left: 35px;
+    font-weight: 700;
+}
+
+
+/* Card Section Styles */
+
+.all-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+
+
+
+.card img{
+    width: 60%;
+}
+.card{
+    border: 1px solid white;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    padding-right: 40px;
+    margin: 20px;
+    box-shadow:5px 5px 20px gray;
+}
+.card p{
+    color: black;
+   text-align: left;
+}
